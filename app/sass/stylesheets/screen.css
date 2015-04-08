@@ -67,17 +67,22 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 1, ../sass/globals/global.scss */
+@font-face {
+  font-family: 'CaptureIt';
+  src: url("/fonts/Capture_it.ttf");
+}
+@font-face {
+  font-family: 'Abril';
+  src: url("/fonts/AbrilFatface-Regular.otf");
+}
+/* line 10, ../sass/globals/_global.scss */
 h1 {
-  background: blue;
+  font-family: 'Abril';
+  font-size: 36px;
 }
 
-/* line 1, ../sass/views/home.scss */
+/* line 14, ../sass/globals/_global.scss */
 h3 {
-  background: blue;
-}
-
-/* line 1, ../sass/views/about.scss */
-h2 {
-  background: blue;
+  font-family: 'CaptureIt';
+  font-size: 24px;
 }
