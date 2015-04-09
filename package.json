@@ -1,0 +1,23 @@
+{
+  "name": "weirdfoodsbuffalo.com",
+  "version": "1.0.0",
+  "description": "Weird Foods Buffalo",
+  "main": "app/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/akirchmyer/my-barebones-app.git"
+  },
+  "author": "Andrew Kirchmyer",
+  "bugs": {
+    "url": "https://github.com/akirchmyer/my-barebones-app/issues"
+  },
+  "homepage": "https://github.com/akirchmyer/my-barebones-app",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-compass": "^1.0.3",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
