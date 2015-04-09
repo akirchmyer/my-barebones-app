@@ -2,14 +2,26 @@
 	font-family: 'CaptureIt';
 	src: url('/fonts/Capture_it.ttf');
 }
-@font-face {
-	font-family: 'Abril';
-	src: url('/fonts/AbrilFatface-Regular.otf');
+
+html, body, .main {
+	height: 100%;
+}
+
+body {
+	background: #000;
+}
+
+.main {
+	background: #FFF;
+	margin: 0 auto;
+	max-width: 800px;
+	width: 100%;
 }
 
 h1 {
-	font-family: 'Abril';
-	font-size: 36px;
+	font-family: 'CaptureIt';
+	font-size: 14vw;
+	text-align: center;
 }
 h3 {
 	font-family: 'CaptureIt';

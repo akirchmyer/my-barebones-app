@@ -71,17 +71,32 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-family: 'CaptureIt';
   src: url("/fonts/Capture_it.ttf");
 }
-@font-face {
-  font-family: 'Abril';
-  src: url("/fonts/AbrilFatface-Regular.otf");
+/* line 6, ../sass/globals/_global.scss */
+html, body, .main {
+  height: 100%;
 }
+
 /* line 10, ../sass/globals/_global.scss */
-h1 {
-  font-family: 'Abril';
-  font-size: 36px;
+body {
+  background: #000;
 }
 
 /* line 14, ../sass/globals/_global.scss */
+.main {
+  background: #FFF;
+  margin: 0 auto;
+  max-width: 800px;
+  width: 100%;
+}
+
+/* line 21, ../sass/globals/_global.scss */
+h1 {
+  font-family: 'CaptureIt';
+  font-size: 14vw;
+  text-align: center;
+}
+
+/* line 26, ../sass/globals/_global.scss */
 h3 {
   font-family: 'CaptureIt';
   font-size: 24px;
